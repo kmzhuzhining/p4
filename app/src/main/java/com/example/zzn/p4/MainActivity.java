@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initCostData() {
-        for (int i=0;i<6;i++) {
+        for (int i=0;i<7;i++) {
             CostBean costBean = new CostBean();
             costBean.costTitle =i+ "zzn";
             costBean.costDate = "11-11-"+(i+2018);
